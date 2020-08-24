@@ -1,19 +1,9 @@
 import axios from 'axios';
 
-const httpClient = axios.create({
-  baseURL: process.env.VUE_APP_API_BASE_URL,
-  // timeout: 1000 * 5,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
+axios.defaults.baseURL = process.env.VUE_APP_API_BASE_URL;
+axios.defaults.headers.common['Content-Type'] = 'application/json';
 
-const httpClientAuth = axios.create({
-  baseURL: process.env.VUE_APP_API_BASE_URL,
-  // timeout: 1000 * 5,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
+const httpClient = axios;
+const httpClientAuth = axios.create();
 
 export { httpClient, httpClientAuth };
