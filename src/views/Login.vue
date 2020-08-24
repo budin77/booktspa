@@ -27,7 +27,6 @@
           <button class="btn btn-lg btn-primary btn-block" id="submitButton">
             Sign in
           </button>
-
           <div class="alert alert-success" role="alert" style="margin-top:20px">
             <p>
               Testing Credentials
