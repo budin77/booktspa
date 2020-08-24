@@ -34,7 +34,7 @@
             </p>
             <hr />
             <p class="mb-0">
-              Email address: bogdan.budin77@gmail.com<br />
+              Email address: test@email.com<br />
               Password: test1234
             </p>
           </div>
