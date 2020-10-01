@@ -9,3 +9,6 @@ This project is made to demonstrate several development tools,patterns and techn
  - Consume a RESTful API
  - Rounting
  - Centralized State Management - Vuex
+ - Authentication
+ - Axios - promise based HTTP client
+ 
