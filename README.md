@@ -2,7 +2,7 @@
 
 SPA - Vue.js/Vuex
 
-This project is made to demonstrate several development tools,patterns and techniques:
+This project is made to demonstrate several development tools, patterns and techniques:
  - Consuming a RESTful API
  - Rounting
  - Centralized State Management - Vuex
